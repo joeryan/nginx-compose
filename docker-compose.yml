@@ -48,6 +48,7 @@ services:
       - VIRTUAL_HOST=www.clanryan.us,clanryan.us
       - VIRTUAL_NETWORK=nginx-proxy
       - VIRTUAL_PORT=80
+      - VIRTUAL_PORT=443
       - LETSENCRYPT_HOST=www.clanryan.us,clanryan.us
       - LETSENCRYPT_EMAIL=joe@clanryan.us
       - LETSENCRYPT_TEST=true
