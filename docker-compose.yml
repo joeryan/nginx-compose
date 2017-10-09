@@ -43,7 +43,7 @@ services:
     container_name: cr-web
     volumes:
       - "/mnt/volume-nyc1-01/clanryan/conf.d:/etc/nginx/conf.d"
-      - "/mnt/volume-nyc1-01/clanryan/html:/usr/share/nginx/html"
+      - "/mnt/volume-nyc1-01/clanryan:/usr/share/nginx/html"
     environment:
       - VIRTUAL_HOST=www.clanryan.us,clanryan.us
       - VIRTUAL_NETWORK=nginx-proxy
